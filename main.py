@@ -4,6 +4,10 @@
 import tkinter as tk
 import tkinter.ttk as ttk
 
+from namiki import tab1_main
+from takumi import tab2_main
+from haruka import tab3_main
+
 def main():
 
     #メインウィンドウ作成
@@ -42,26 +46,7 @@ def main():
     return 0
 
 
-# namiki
-def tab1_main(tab1):
-    #文字を表示する。
-    param_name = tk.Label(tab1, text="タブ1の内容")
-    param_name.place(x=10, y=10)
-    return 0
 
-# takumi
-def tab2_main(tab2):
-    #文字を表示する。
-    param_name = tk.Label(tab2, text="タブ2の内容")
-    param_name.place(x=10, y=20)
-    return 0
-
-# haruka
-def tab3_main(tab3):
-    #文字を表示する。
-    param_name = tk.Label(tab3, text="タブ3の内容")
-    param_name.place(x=10, y=30)
-    return 0
 
 if __name__ == "__main__":
     main()
