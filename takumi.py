@@ -27,9 +27,12 @@ def tab2_main(tab2):
                                       text='ユーザー名：' + i[0] +' /内容：' + i[1], 
                                       fg = 'orange'
                                       )
-                user_write.pack()
-                
-            
+                sep = ttk.Separator(tab2, 
+                                    orient="horizontal", 
+                                    style="blue.TSeparator",
+                                    )
+                sep.pack(fill="both")
+                user_write.pack()    
         f_r.close()
     
     #伝言入力フォームの挿入。
