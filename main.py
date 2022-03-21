@@ -4,7 +4,7 @@
 import tkinter as tk
 import tkinter.ttk as ttk
 
-from namiki import tab1_main
+from miharu import tab1_main
 from takumi import tab2_main
 from haruka import tab3_main
 
@@ -17,7 +17,7 @@ def main():
     main_view.title("東京いいなぁ班のアプリ")
 
     #メインウィンドウの大きさを設定
-    main_view.geometry("1000x500")
+    main_view.geometry("500x450")
 
     #メインウィンドウにnotebookを作成する。
     nb = ttk.Notebook(main_view)
