@@ -22,7 +22,7 @@ def tab2_main(tab2):
             fixed_l = l.rstrip()
             rows.append(fixed_l.split(','))
             l = f_r.readline()
-        for i in range(1,len(rows)) :
+        for i in range(len(rows)) :
                 user_write = tk.Label(tab2, 
                                       text='ユーザー名：' + rows[i][0] +' \n内容：' + rows[i][1], 
                                       relief = 'ridge',
